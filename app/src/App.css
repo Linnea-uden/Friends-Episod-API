@@ -1,0 +1,19 @@
+.App, .data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.App input{
+margin-top: 20px;
+width: 300px;
+height: 40px;
+font-size: 20px;
+padding-left: 10px;
+}
+.data{
+  border: 1px solid black;
+  margin: 15px;
+  padding: 0px;
+}
