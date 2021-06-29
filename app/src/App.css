@@ -15,7 +15,9 @@ padding-left: 10px;
 .data{
   border: 1px solid black;
   margin: 15px;
-  padding: 0px;
+  padding: 10px;
+  width: 600px;
+  height: 500px;
 }
 .header h1{
   font-size: 45px;
