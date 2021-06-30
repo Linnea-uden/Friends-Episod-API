@@ -16,6 +16,7 @@ function Postdata() {
       <input type="text" placeholder="Search..." onChange={event => {
         setSearchTerm(event.target.value)}}
         />
+        <div className="row">
     {Data.filter((val) => {
       if (searchTerm == "") {
         return val
@@ -39,6 +40,7 @@ function Postdata() {
         <p>{val.content}</p>
       </div>
     })}
+       </div>
     </div>
   );
 }
